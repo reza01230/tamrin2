@@ -12,6 +12,22 @@
 #firstUl li:hover{
    background-color: blueviolet;
 }
-.back-hover{
+/* .back-hover{
    background-color: blueviolet;
+} */
+.homePageStyle{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   align-content: center;
+   justify-content: center;
+   align-items: center;
+}
+
+.border-radius{
+ border-radius: 1rem;
+}
+
+.shadow{
+   filter: drop-shadow(6px -3px 8px black);
 }
