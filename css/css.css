@@ -1,42 +1,50 @@
  
  .back-color-nav{
-    background-color: black;
- }
- .sideimage{
-    width: 100%;
-    height: auto;
- }
- zindex1{
-    z-index: -1;
+   background-color: black;
+}
+.sideimage{
+   width: 100%;
+   height: auto;
+}
+zindex1{
+   z-index: -1;
 }
 #firstUl li:hover{
-   background-color: blueviolet;
+  background-color: #00C853 !important;
 }
 /* .back-hover{
-   background-color: blueviolet;
+  background-color: blueviolet;
 } */
 .homePageStyle{
-   display: flex;
-   flex-direction: column;
-   flex-wrap: wrap;
-   align-content: center;
-   justify-content: center;
-   align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .border-radius{
- border-radius: 1rem;
+border-radius: 1rem;
 }
 
 .shadow{
-   filter: drop-shadow(6px -3px 8px black);
+  filter: drop-shadow(6px -3px 8px black);
 }
 
 .nav-shadow{
-   box-shadow: 0 0 30px #90a4ae;
+  box-shadow: 0 0 30px #90a4ae;
 }
 
 .nav-img-size{
-   width: 50px;
-   height: 50px;
+  width: 50px;
+  height: 50px;
+}
+
+.max-h-35{
+   max-height: 35px;
+}
+
+.user-list-item.active .material-icons{
+   transform: rotate(180deg);
 }
