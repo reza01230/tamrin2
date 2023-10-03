@@ -10,7 +10,7 @@
     <title>User Management</title>
 </head>
 <body>
-          <!-- nav section ------------------ start -->
+          <!-- nav section ------------------ start ------------------------------------------>
   <nav>
     <div class="nav-wrapper back-color-nav nav-shadow">
       <a href="#!" class=" hide-on-med-and-up ">Home</a>
@@ -24,10 +24,11 @@
       </ul>
     </div>
   </nav>
-         <!-- nav section ------------end -->
+         <!-- nav section ------------end ---------------------------------------->
 
 
-        <!-- side nav ----------start -->
+
+        <!-- side nav ----------start ---------------------------------------->
 
   <ul class="sidenav" id="mobile-demo">
     <li><div class="user-view">
@@ -47,67 +48,120 @@
     <li><a class="waves-effect" href="#!"><i class="material-icons">gavel</i> terms of use, cookie and privacy policy</a></li>
     <li><a class="waves-effect" href="#!"><i class="material-icons">phone</i>Contact</a></li>
   </ul>
-         <!-- side nav -------------end -->
+         <!-- side nav -------------end ---------------------------------------->
 
-         <!-- home section ----------start -->
-        <section class="row m-t-2 m-b-0">
-          <div class="flex-c col s6 m4 l3 m-t-0">
+
+
+         
+         <!-- home section ----------start ---------------------------------------->
+       
+       
+       <!-- search and add user botton -------------start-->
+         <section class="row m-t-2 m-b-0">
+          <div class="flex-c col s12 m4 l3 m-t-0">
             <a  class="waves-effect waves-light btn green accent-4 sizefull max-w-350 max-h-35 border-radius of-hidden flex-c m-t-20"><i class="material-icons m-r-4">person_add</i>Add User</a>   
           </div>
           <div class="row">
-            <div class="input-field col s6 m6 l7">
+            <div class="input-field col s12 m6 l7">
               <input id="search" type="text" class="">
               <label for="search"><i class="material-icons pos-relative top-2 tiny m-r-2">search</i>search</label>
             </div>
             <div class="col m2 l2"></div>
           </div>
         </section>
+       <!-- search and add user botton -------------end-->
+
+
 
         <section>
-          <ul class="collapsible popout">
+          <!-- mobile table--------------------------start----->
+          <ul class="collapsible popout hide-on-med-and-up">
             <li class="user-list-item">
               <div class="collapsible-header f-bold"><i class="material-icons green-text accent-4 trans-0-2 ">expand_circle_down</i>Reza Ahmadzadeh</div>
               <div class="collapsible-body p-all-5">
-                <div class=""><span class="f-bold"> Name :</span>
-                  <span>Reza Ahmadzadeh</span></div>
+                <div class=""><span class="f-bold"> UserName:</span>
+                  <span>RezaAh</span></div>
               
                 <div class="">
                   <span class="f-bold">Address:</span>
                   <span>example...</span>
                 </div>
+                <div><span class="m-r-2 f-bold">Action:</span></span id="remove_icon"><i class="material-icons deep-orange-text accent-4 pos-relative top-5" href="#">delete edit</i></div>
               </div>
             </li>
 
             <li class="user-list-item">
               <div class="collapsible-header f-bold"><i class="material-icons green-text accent-4 trans-0-2 ">expand_circle_down</i>Reza Ahmadzadeh</div>
               <div class="collapsible-body p-all-5">
-                <div class=""><span class="f-bold"> Name :</span>
-                  <span>Reza Ahmadzadeh</span></div>
+                <div class=""><span class="f-bold"> UserName:</span>
+                  <span>RezaAh</span></div>
               
                 <div class="">
                   <span class="f-bold">Address:</span>
                   <span>/example...</span>
                 </div>
+                <div><span class="m-r-2 f-bold">Action:</span></span id="remove_icon"><i class="material-icons deep-orange-text accent-4 pos-relative top-5" href="#">delete edit</i></div>
               </div>
             </li>
 
             <li class="user-list-item">
               <div class="collapsible-header f-bold"><i class="material-icons green-text accent-4 trans-0-2 ">expand_circle_down</i>Reza Ahmadzadeh</div>
               <div class="collapsible-body p-all-5">
-                <div class=""><span class="f-bold"> Name :</span>
-                  <span>Reza Ahmadzadeh</span></div>
+                <div class=""><span class="f-bold"> UserName:</span>
+                  <span>RezaAh</span></div>
               
                 <div class=2 ">
                   <span class="f-bold">Address:</span>
                   <span>/example...</span>
                 </div>
+                <div><span class="m-r-2 f-bold">Action:</span></span id="remove_icon"><i class="material-icons deep-orange-text accent-4 pos-relative top-5" href="#">delete edit</i></div>
               </div>
             </li>
 
           </ul>
+          <!-- mobile table --------------------------end----->
+
+
+          <!-- desktop table--------------------------start----->
+          <div class="hide-on-med-and-down show-on-medium-and-up">
+          <table class="centered striped highlighting container">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>UserName</th>
+                <th>Address</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+          
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Reza Ahmadzadeh</td>
+              <td>RezaAh</td>
+              <td>example/...</td>
+              <td><i class="material-icons deep-orange-text accent-4 pos-relative top-5" href="#">delete edit</i></td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Reza Ahmadzadeh</td>
+              <td>RezaAh</td>
+              <td>example/...</td>
+              <td><i class="material-icons deep-orange-text accent-4 pos-relative top-5" href="#">delete edit</i>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Reza Ahmadzadeh</td>
+              <td>RezaAh</td>
+              <td>example/...</td>
+              <td><i class="material-icons deep-orange-text accent-4 pos-relative top-5" href="#">delete edit</i>
+            </tr>
+          </tbody>
+          </table></div>
         </section>
 
-         <!-- home section -------------end --> 
+         <!-- home section -------------end ----------------------------------------> 
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>

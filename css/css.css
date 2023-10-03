@@ -45,6 +45,10 @@ border-radius: 1rem;
    max-height: 35px;
 }
 
-.user-list-item.active .material-icons{
+.user-list-item.active .material-icons:first-child{
    transform: rotate(180deg);
+}
+
+.highlighting > tbody > tr:hover{
+background-color: #00c8536f !important;
 }
