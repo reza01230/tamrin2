@@ -52,3 +52,25 @@ border-radius: 1rem;
 .highlighting > tbody > tr:hover{
 background-color: #00c8536f !important;
 }
+
+.pagination-item-count{
+  align-items: baseline
+}
+
+.rounded-pill{
+  border-radius: 5rem;
+}
+
+.pagination-pos{
+  position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 95% !important;
+    height: 60px;
+}
+
+.border-radius-pagination{
+  border-radius: 1rem 1rem 0 0;
+  }
+
