@@ -66,11 +66,45 @@ background-color: #00c8536f !important;
     bottom: 0;
     left: 0;
     right: 0;
-    width: 95% !important;
+    /* width: 95% !important; */
     height: 60px;
 }
 
-.border-radius-pagination{
+.container{
+  width: 100%;
+}
+
+.border-radius-top{
   border-radius: 1rem 1rem 0 0;
   }
+
+ .AddUser-Modal-Back{
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.70);
+  z-index: 999;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  
+ }
+
+ .AddUser-Modal{
+  position: fixed;
+  width: 95%;
+  height: 70vh;
+  background-color: white;
+  z-index: 1000;
+  right: 0;
+  left: 0;
+  bottom: -75vh;
+  box-shadow: 0 8px 17px 2px #00c8536f, 0 3px 14px 2px #00c8536f, 0 5px 5px -3px #00c8536f;
+
+}
+ 
+.AddUser-Modal.show{
+bottom: 0;
+}
 

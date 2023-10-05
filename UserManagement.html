@@ -12,7 +12,7 @@
 <body>
           <!-- nav section ------------------ start ------------------------------------------>
   <nav>
-    <div class="nav-wrapper back-color-nav nav-shadow">
+    <div id="navbar" class="nav-wrapper back-color-nav nav-shadow">
       <a href="#!" class=" hide-on-med-and-up ">Home</a>
       <img src="image/logoR.png" alt="logo reza" class=" nav-img-size right pos-relative top-5 shadow">
       <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
@@ -59,7 +59,7 @@
        <!-- search and add user botton -------------start-->
          <section class="row m-t-2 m-b-0">
           <div class="flex-c col s12 m4 l3 m-t-0">
-            <a  class="waves-effect waves-light btn green accent-4 sizefull max-w-350 max-h-35 border-radius of-hidden flex-c m-t-20"><i class="material-icons m-r-4">person_add</i>Add User</a>   
+            <a id="AddUserButton" class="waves-effect waves-light btn green accent-4 sizefull max-w-350 max-h-35 border-radius of-hidden flex-c m-t-20"><i class="material-icons m-r-4">person_add</i>Add User</a>   
           </div>
           <div class="row">
             <div class="input-field col s12 m6 l7">
@@ -164,7 +164,7 @@
 
 
           <!-- pagination--------------------------start----->
-          <div class="pagination-container container p-l-10 p-t-10 p-r-10 p-b-15 flex-sb-m pagination-pos z-depth-3 border-radius-pagination">
+          <div class="pagination-container container p-l-10 p-t-10 p-r-10 p-b-15 flex-sb-m pagination-pos z-depth-3 border-radius-top">
             <div class="pagination-item-count flex-l-m flex-str ">
              showing
               <span class="m-l-5 m-r-5 max-w-40">
@@ -181,6 +181,32 @@
           <!-- pagination--------------------------end----->
 
         </section>
+
+          <!-- add user modal--------------------------start----->
+        <section>
+          <div class="AddUser-Modal-Back dis-none"></div>
+          <div class="AddUser-Modal container border-radius-top trans-1-0">
+            <div class="center-on-small-only">
+              <h5 class="f-bold"><i class="material-icons m-l-5 pos-relative top-4">person_add</i> Add User</h5>
+              <form class=" row p-all-10">
+                <div class="col s12 m12 input-field">
+                    <input id="input_text" type="text" data-length="15">
+                    <label for="input_text">Name</label>
+                </div>
+                <div class="col s12 m12 input-field">
+                    <input id="input_text" type="text" data-length="15">
+                    <label for="input_text">UserName</label>
+                </div>
+                <div class="col s12 m12 input-field">
+                    <input id="input_text" type="text" data-length="15">
+                    <label for="input_text">Address</label>
+                </div>
+              </form>
+            </div>
+          </div>  
+        </section>
+
+          <!-- add user modal--------------------------start----->
 
          <!-- home section -------------end ----------------------------------------> 
 
